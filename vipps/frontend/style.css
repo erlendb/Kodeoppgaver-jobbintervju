@@ -1,0 +1,36 @@
+body {
+  background: #444;
+  color: #ccc;
+}
+
+#container {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#countContainer {
+  margin-top: 50px;
+}
+
+#inputContainer {
+  margin-top: 20px;
+}
+
+#count {
+  font-size: 100px;
+}
+
+input[type='text'] {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #ccc
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
