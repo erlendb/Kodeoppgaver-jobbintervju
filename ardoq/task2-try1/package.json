@@ -1,0 +1,19 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify bundle.js -ss browserify -o public/bundle.js",
+    "start": "node app.js"
+  },
+  "author": "Erlend Blomseth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0"
+  }
+}
